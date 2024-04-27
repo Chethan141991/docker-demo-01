@@ -23,3 +23,4 @@ jobs:
     - run: |
         docker build . -t dockerregistrychethan.azurecr.io/demo-docker:${{ github.sha }}
         docker push dockerregistrychethan.azurecr.io/demo-docker:${{ github.sha }}
+        
